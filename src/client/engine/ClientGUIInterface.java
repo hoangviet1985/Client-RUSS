@@ -201,129 +201,66 @@ public class ClientGUIInterface extends javax.swing.JFrame{
         cameraBtt = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        getContentPane().add(powerBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 180, 370, -1));
 
         powerLabel.setFont(new java.awt.Font("Lucida Grande", 1, 15)); // NOI18N
         powerLabel.setForeground(new java.awt.Color(255, 51, 0));
         powerLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         powerLabel.setLabelFor(powerBar);
         powerLabel.setText("Power");
+        getContentPane().add(powerLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 180, 50, 30));
 
         serverIPlabel.setFont(new java.awt.Font("Lucida Grande", 1, 15)); // NOI18N
         serverIPlabel.setForeground(new java.awt.Color(51, 51, 255));
         serverIPlabel.setLabelFor(serverIPaddr);
         serverIPlabel.setText("Server IP address");
+        getContentPane().add(serverIPlabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 40, -1, 30));
+        getContentPane().add(serverIPaddr, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 40, 210, -1));
 
         connectBtt.setText("Connect");
+        getContentPane().add(connectBtt, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 80, -1, -1));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 457, 600, 20));
 
         disconnectBtt.setText("Disconnect");
+        getContentPane().add(disconnectBtt, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 80, 100, -1));
 
         forwardBtt.setText("Forward");
+        getContentPane().add(forwardBtt, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 140, -1, -1));
 
         reverseBtt.setText("Reverse");
+        getContentPane().add(reverseBtt, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 220, -1, 30));
 
         runModeLabel.setFont(new java.awt.Font("Lucida Grande", 0, 15)); // NOI18N
         runModeLabel.setForeground(new java.awt.Color(0, 0, 255));
         runModeLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         runModeLabel.setLabelFor(powerBar);
+        getContentPane().add(runModeLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 140, 140, 20));
 
         rightBtt.setText("Right");
+        getContentPane().add(rightBtt, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 180, 90, -1));
 
         leftBtt.setText("Left");
+        getContentPane().add(leftBtt, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 180, 90, -1));
+        getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 120, 670, 10));
+        getContentPane().add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 260, 670, -1));
 
         tiltingLabel.setBackground(new java.awt.Color(255, 255, 255));
         tiltingLabel.setFont(new java.awt.Font("Lucida Grande", 1, 15)); // NOI18N
         tiltingLabel.setForeground(new java.awt.Color(0, 0, 255));
         tiltingLabel.setText("Tilting");
+        getContentPane().add(tiltingLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 280, -1, -1));
 
         frontTiltLabel.setForeground(new java.awt.Color(0, 0, 255));
         frontTiltLabel.setText("Front");
+        getContentPane().add(frontTiltLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 310, -1, -1));
 
         sideTiltLabel.setForeground(new java.awt.Color(0, 0, 255));
         sideTiltLabel.setText("Side");
+        getContentPane().add(sideTiltLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 310, -1, -1));
 
         cameraBtt.setText("Camera");
-
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(100, 100, 100)
-                .addComponent(serverIPlabel)
-                .addGap(5, 5, 5)
-                .addComponent(serverIPaddr, javax.swing.GroupLayout.PREFERRED_SIZE, 210, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(100, 100, 100)
-                .addComponent(cameraBtt))
-            .addGroup(layout.createSequentialGroup()
-                .addGap(240, 240, 240)
-                .addComponent(connectBtt)
-                .addGap(14, 14, 14)
-                .addComponent(disconnectBtt, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 670, javax.swing.GroupLayout.PREFERRED_SIZE)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(70, 70, 70)
-                .addComponent(forwardBtt)
-                .addGap(246, 246, 246)
-                .addComponent(runModeLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(leftBtt, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(50, 50, 50)
-                .addComponent(rightBtt, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
-                .addComponent(powerLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(powerBar, javax.swing.GroupLayout.PREFERRED_SIZE, 370, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(layout.createSequentialGroup()
-                .addGap(70, 70, 70)
-                .addComponent(reverseBtt))
-            .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, 670, javax.swing.GroupLayout.PREFERRED_SIZE)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(120, 120, 120)
-                .addComponent(tiltingLabel))
-            .addGroup(layout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(frontTiltLabel)
-                .addGap(137, 137, 137)
-                .addComponent(sideTiltLabel))
-            .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 600, javax.swing.GroupLayout.PREFERRED_SIZE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(40, 40, 40)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(serverIPlabel, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(serverIPaddr, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(cameraBtt))
-                .addGap(10, 10, 10)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(connectBtt)
-                    .addComponent(disconnectBtt))
-                .addGap(11, 11, 11)
-                .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(10, 10, 10)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(forwardBtt)
-                    .addComponent(runModeLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(11, 11, 11)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(leftBtt)
-                    .addComponent(rightBtt)
-                    .addComponent(powerLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(powerBar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(10, 10, 10)
-                .addComponent(reverseBtt, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(10, 10, 10)
-                .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(8, 8, 8)
-                .addComponent(tiltingLabel)
-                .addGap(11, 11, 11)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(frontTiltLabel)
-                    .addComponent(sideTiltLabel))
-                .addGap(184, 184, 184)
-                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
+        getContentPane().add(cameraBtt, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 40, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -463,7 +400,7 @@ public class ClientGUIInterface extends javax.swing.JFrame{
             if(cameraBtt.isEnabled())
             {   //camera part will be done later
                 Client myClientCam;
-                myClientCam = new Client("192.168.1.8");// IP address of the RP, which holds the camera
+                myClientCam = new Client("192.168.0.8");// IP address of the RP, which holds the camera
                 //cameraBtt.setEnabled(false);
             }
         }

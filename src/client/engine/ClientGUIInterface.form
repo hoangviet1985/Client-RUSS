@@ -18,107 +18,18 @@
     <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
     <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
-    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,18,0,0,2,-92"/>
   </AuxValues>
 
-  <Layout>
-    <DimensionLayout dim="0">
-      <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <EmptySpace min="100" pref="100" max="-2" attributes="0"/>
-              <Component id="serverIPlabel" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="5" pref="5" max="-2" attributes="0"/>
-              <Component id="serverIPaddr" min="-2" pref="210" max="-2" attributes="0"/>
-              <EmptySpace min="100" pref="100" max="-2" attributes="0"/>
-              <Component id="cameraBtt" min="-2" max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" attributes="0">
-              <EmptySpace min="240" pref="240" max="-2" attributes="0"/>
-              <Component id="connectBtt" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="14" pref="14" max="-2" attributes="0"/>
-              <Component id="disconnectBtt" min="-2" pref="100" max="-2" attributes="0"/>
-          </Group>
-          <Component id="jSeparator1" min="-2" pref="670" max="-2" attributes="0"/>
-          <Group type="102" attributes="0">
-              <EmptySpace min="70" pref="70" max="-2" attributes="0"/>
-              <Component id="forwardBtt" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="246" pref="246" max="-2" attributes="0"/>
-              <Component id="runModeLabel" min="-2" pref="140" max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" attributes="0">
-              <Component id="leftBtt" min="-2" pref="90" max="-2" attributes="0"/>
-              <EmptySpace min="50" pref="50" max="-2" attributes="0"/>
-              <Component id="rightBtt" min="-2" pref="90" max="-2" attributes="0"/>
-              <EmptySpace min="20" pref="20" max="-2" attributes="0"/>
-              <Component id="powerLabel" min="-2" pref="50" max="-2" attributes="0"/>
-              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-              <Component id="powerBar" min="-2" pref="370" max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" attributes="0">
-              <EmptySpace min="70" pref="70" max="-2" attributes="0"/>
-              <Component id="reverseBtt" min="-2" max="-2" attributes="0"/>
-          </Group>
-          <Component id="jSeparator2" min="-2" pref="670" max="-2" attributes="0"/>
-          <Group type="102" attributes="0">
-              <EmptySpace min="120" pref="120" max="-2" attributes="0"/>
-              <Component id="tiltingLabel" min="-2" max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" attributes="0">
-              <EmptySpace min="50" pref="50" max="-2" attributes="0"/>
-              <Component id="frontTiltLabel" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="137" pref="137" max="-2" attributes="0"/>
-              <Component id="sideTiltLabel" min="-2" max="-2" attributes="0"/>
-          </Group>
-          <Component id="jLabel3" min="-2" pref="600" max="-2" attributes="0"/>
-      </Group>
-    </DimensionLayout>
-    <DimensionLayout dim="1">
-      <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <EmptySpace min="40" pref="40" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="serverIPlabel" min="-2" pref="30" max="-2" attributes="0"/>
-                  <Component id="serverIPaddr" min="-2" max="-2" attributes="0"/>
-                  <Component id="cameraBtt" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="connectBtt" min="-2" max="-2" attributes="0"/>
-                  <Component id="disconnectBtt" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
-              <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
-              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="forwardBtt" min="-2" max="-2" attributes="0"/>
-                  <Component id="runModeLabel" min="-2" pref="20" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="leftBtt" min="-2" max="-2" attributes="0"/>
-                  <Component id="rightBtt" min="-2" max="-2" attributes="0"/>
-                  <Component id="powerLabel" min="-2" pref="30" max="-2" attributes="0"/>
-                  <Component id="powerBar" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-              <Component id="reverseBtt" min="-2" pref="30" max="-2" attributes="0"/>
-              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-              <Component id="jSeparator2" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="8" pref="8" max="-2" attributes="0"/>
-              <Component id="tiltingLabel" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="frontTiltLabel" min="-2" max="-2" attributes="0"/>
-                  <Component id="sideTiltLabel" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="184" pref="184" max="-2" attributes="0"/>
-              <Component id="jLabel3" min="-2" pref="20" max="-2" attributes="0"/>
-          </Group>
-      </Group>
-    </DimensionLayout>
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
   </Layout>
   <SubComponents>
     <Component class="javax.swing.JSlider" name="powerBar">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="300" y="180" width="370" height="-1"/>
+        </Constraint>
+      </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="powerLabel">
       <Properties>
@@ -134,6 +45,11 @@
         </Property>
         <Property name="text" type="java.lang.String" value="Power"/>
       </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="250" y="180" width="50" height="30"/>
+        </Constraint>
+      </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="serverIPlabel">
       <Properties>
@@ -148,33 +64,68 @@
         </Property>
         <Property name="text" type="java.lang.String" value="Server IP address"/>
       </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="100" y="40" width="-1" height="30"/>
+        </Constraint>
+      </Constraints>
     </Component>
     <Component class="javax.swing.JTextField" name="serverIPaddr">
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="ClientGUIInterface_serverIPaddr"/>
       </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="240" y="40" width="210" height="-1"/>
+        </Constraint>
+      </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="connectBtt">
       <Properties>
         <Property name="text" type="java.lang.String" value="Connect"/>
       </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="240" y="80" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="457" width="600" height="20"/>
+        </Constraint>
+      </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="disconnectBtt">
       <Properties>
         <Property name="text" type="java.lang.String" value="Disconnect"/>
       </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="350" y="80" width="100" height="-1"/>
+        </Constraint>
+      </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="forwardBtt">
       <Properties>
         <Property name="text" type="java.lang.String" value="Forward"/>
       </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="70" y="140" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="reverseBtt">
       <Properties>
         <Property name="text" type="java.lang.String" value="Reverse"/>
       </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="70" y="220" width="-1" height="30"/>
+        </Constraint>
+      </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="runModeLabel">
       <Properties>
@@ -189,20 +140,45 @@
           <ComponentRef name="powerBar"/>
         </Property>
       </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="410" y="140" width="140" height="20"/>
+        </Constraint>
+      </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="rightBtt">
       <Properties>
         <Property name="text" type="java.lang.String" value="Right"/>
       </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="140" y="180" width="90" height="-1"/>
+        </Constraint>
+      </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="leftBtt">
       <Properties>
         <Property name="text" type="java.lang.String" value="Left"/>
       </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="180" width="90" height="-1"/>
+        </Constraint>
+      </Constraints>
     </Component>
     <Component class="javax.swing.JSeparator" name="jSeparator1">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="120" width="670" height="10"/>
+        </Constraint>
+      </Constraints>
     </Component>
     <Component class="javax.swing.JSeparator" name="jSeparator2">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="260" width="670" height="-1"/>
+        </Constraint>
+      </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="tiltingLabel">
       <Properties>
@@ -217,6 +193,11 @@
         </Property>
         <Property name="text" type="java.lang.String" value="Tilting"/>
       </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="120" y="280" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="frontTiltLabel">
       <Properties>
@@ -225,6 +206,11 @@
         </Property>
         <Property name="text" type="java.lang.String" value="Front"/>
       </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="50" y="310" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
     </Component>
     <Component class="javax.swing.JLabel" name="sideTiltLabel">
       <Properties>
@@ -233,11 +219,21 @@
         </Property>
         <Property name="text" type="java.lang.String" value="Side"/>
       </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="220" y="310" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
     </Component>
     <Component class="javax.swing.JButton" name="cameraBtt">
       <Properties>
         <Property name="text" type="java.lang.String" value="Camera"/>
       </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="550" y="40" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
     </Component>
   </SubComponents>
 </Form>
